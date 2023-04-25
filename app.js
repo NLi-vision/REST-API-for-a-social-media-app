@@ -27,7 +27,7 @@ app.use('/api/reply', replyRouter);
 app.use('/api/like', likeRouter);
 
 //url for connecting to MongoDB Atlas
-const url = `mongodb+srv://nli2109:Conestoga1@cluster0.dvcg192.mongodb.net/SocialMediaApp?retryWrites=true&w=majority`;
+const url = `mongodb+srv://username:password@cluster0.dvcg192.mongodb.net/SocialMediaApp?retryWrites=true&w=majority`;
 
 mongoose.connect(url)
     .then( () => {
